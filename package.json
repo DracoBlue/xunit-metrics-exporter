@@ -1,0 +1,19 @@
+{
+  "name": "xunit-metrics-exporter",
+  "description": "This project offers a prometheus metrics exporter for xunit report files.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DracoBlue <JanS@DracoBlue.de>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "glob": "^7.1.7",
+    "globby": "^12.0.1",
+    "xml2js": "^0.4.23"
+  }
+}
